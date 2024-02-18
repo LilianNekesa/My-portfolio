@@ -1,0 +1,36 @@
+body{
+    background-image: url(lily.jpg);
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+}
+
+marquee{
+    background-color: goldenrod;
+    direction: left;
+    color: black;
+    size: 10;
+
+}
+
+font{
+    color: black;
+    size: 4;
+    font-size: 4;
+    
+}
+
+h2{
+    color: green;
+    size: 40px;
+    font-family: Arial;
+}
+
+h3{
+    color: green;
+    size: 40px;
+    font-family: Arial;
+}
+
