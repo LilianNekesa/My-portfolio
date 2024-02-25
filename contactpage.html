@@ -3,10 +3,23 @@
 <title>
 Contact page
 </title>
+<link rel="stylesheet" type="text/css" href="main.css">
 </head>
+<body>
 
+    <div class="menu-bar">
+        <ul>
+    <li><a href="about.html" target="_blank">About</a><br></li>
+    <li><a href="services.html" target="_blank">Services</a><br></li>
+    <li><a href="project.html" target="_blank">Projects</a><br></li>
+    
+    </ul>
+    </div>
+<div class="form">
 <h1>Contact</h1>
+
 <form>
+
     <label>First Name</label><br>
     <input type="text" id="Name"><br>
 
@@ -19,14 +32,46 @@ Contact page
 <label>Email</label><br>
 <input type="text" id="email address"><br>
 
-<select name="Nationality" id="country">
-<option value="American" id="American"></option><br>
-<option value="African" id="African"></option>
 
+<label for="nationality">Nationality</label>
+<select name="Nationality" id="country" ize="5" >
+<option value="American" selected id="American">American</option>
+<option value="Australian" selected id="Australian"> Australian</option>
+<option value="British" selected id="British"> British</option>
+<option value="Indian" selected id="Indian"> Indian</option>
+<option value="Chinese" selected id="chinese"> Chinese</option>
+<option value="korean" selected id="Korean">Korean</option>
+<option value="Kenyan" selected id="Kenyan"> Kenyan</option>
+<option value="Nigerian" selected id="Nigerian"> Nigerian</option>
+<option value="Ethiopian" selected id="Ethiopian"> Ethiopian</option>
+<option value="South African"selected id="South African"> South African</option>
+<option value="Senegalise" selected id="Senegalise"> Senegalese</option>
+<option value="Tanzanian" selected id="Tanzanian"> Tanzania</option>
 </select>
 
-    </form>
+<br><label>Where did you hear about us?</label>
 
+<br><radio> Facebook</radio>   
+    <input type="radio", id="Facebook"><br> 
+
+    <radio> Twitter</radio>   
+    <input type="radio", id="Twitter"><br> 
+
+    <radio> Tiktok</radio>   
+    <input type="radio", id="Age"><br> 
+
+    <radio> Instagram</radio>   
+    <input type="radio", id="Instagram"><br> 
+
+    <radio> Age 26-30</radio>   
+    <input type="radio", id="Age"><br> 
+
+    <radio> Other</radio>   
+    <input type="radio", id="Please specify"><br> 
+
+<br><input type="submit" value="Submit"/><br>
+    </form>
+</div>
 
 </body>
 </html>
