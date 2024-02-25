@@ -1,36 +1,81 @@
 body{
-    background-image: url(lily.jpg);
+    background-image:url(lily.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1{
-    color: black;
-    font-size: 50px;
-}
-
-marquee{
-    background-color: goldenrod;
-    direction: left;
-    color: black;
-    size: 10;
+    font-size: x-large;
+text-align: center;
 
 }
+.close{
+    font-size: x-large;
+    font-family: times;
+    font-style: oblique;
+}
 
-font{
+.lilian{
+    background-color: aqua;
+    font-size: larger ;
     color: black;
-    size: 4;
-    font-size: 4;
+    text-align: center;
     
 }
 
+img{
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    float: left;
+
+}
 h2{
-    color: green;
-    size: 40px;
-    font-family: Arial;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+}
+.need{
+    background-color: greenyellow;
+    font-size: large;
+    padding-right: 20px;
+    color: white;
 }
 
+.vlog{
+    
+    background-color: aquamarine;
+    font-size:larger;
+    color: black
+    
+    
+}
 h3{
-    color: green;
-    size: 40px;
-    font-family: Arial;
+    text-align: center;
+    font-size: xx-large;
+    color: black; 
+    font-family: times;
+    font-weight: bolder;
+     
 }
 
+p{
+    font-size: larger;
+    color: black;
+    font-family: times;
+
+}
+
+.main{
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+marquee{
+    font-size: larger;
+    color: blue;
+    scrollbar-face-color: aquamarine;
+}
