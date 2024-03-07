@@ -11,6 +11,9 @@ h1{
 text-align: center;
 
 }
+.projects{
+    float: left;
+}
 
 
 .menu-bar ul{
