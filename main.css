@@ -1,27 +1,24 @@
 body{
-    background-image:url(lily.jpg);
+    background-color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    border-color: aquamarine;
+    
 }
 
 h1{
-    font-size: x-large;
+    font-size: xx-large;
 text-align: center;
 
-}
-.projects{
-    float: left;
 }
 
 
 .menu-bar ul{
-        background-color: brown;
+        background-color: chocolate;
         list-style-type: none;
         border-radius: 15px;
-        text-align: center;
-        padding: 40px 80px;
+        text-align: left;
+        padding: 10px 30px;
     }
     .menu-bar ul li{
         display: inline-flex;
@@ -30,7 +27,7 @@ text-align: center;
     .menu-bar ul li a{
         color: white;
         text-decoration: none;
-        margin: 0 0 0 7rem;
+        margin: 0 0 0 3rem;
         font-family: sans-serif;
     }
 
@@ -41,7 +38,7 @@ text-align: center;
     .top{
         background-color: white;
         height: 50px;
-        width: 120%;
+        width: 100%;
     }
 
     .top ul{
@@ -57,6 +54,12 @@ text-align: center;
         width: 20px;
     }
 
+    .search{
+        text-align: right;
+        border-color: blue;
+    }
+    
+
 .close{
     font-size: x-large;
     font-family: times;
@@ -64,39 +67,41 @@ text-align: center;
 }
 
 .lilian{
-    background-color: aqua;
-    font-size: larger ;
-    color: black;
-    text-align: center;
+    
+    font-size: x-large ;
+    text-align: left;
     
 }
 
-img{
-    border: 2px solid blueviolet;
-    border-radius: 10px;
-    float: left;
-
-}
 h2{
     text-align: center;
     font-size: xx-large;
     color: black;
 }
-.need{
-    background-color: greenyellow;
-    font-size: large;
-    padding-right: 20px;
-    color: white;
+
+.lilian{
+    text-align: center;
+    font-size: x-large;
+    block-size: auto;
+    
+}
+.lilian img{
+    width: 350px;
+    float: left;
+    height: auto;
+
 }
 
-.vlog{
-    
-    background-color: aquamarine;
-    font-size:larger;
-    color: black
-    
-    
+.need{
+    text-align: center;
+    font-size: x-large;
+    margin-block-start: auto;
 }
+.need h2{
+    text-align: left;
+}
+
+
 h3{
     text-align: center;
     font-size: xx-large;
@@ -104,6 +109,17 @@ h3{
     font-family: times;
     font-weight: bolder;
      
+}
+
+.mlog{
+    margin: 5px;
+    float: left;
+    width: 180px;
+    border: 1px;
+}
+.mlog img{
+    width: 100%;
+    height: auto;
 }
 
 p{
@@ -114,18 +130,25 @@ p{
 }
 
 
-.main{
-    width: 500px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 50px;
-    text-align: center;
+.mlog{
+    margin: 1px solid gray;
+    float: left;
+    width: 400px;
+    border: 1px solid  gray;
 }
 
+.mlog img{
+    width: 100%;
+    height: auto;
+}
+
+.mlog :hover{
+    border: 1px solid gray;
+}
 marquee{
     font-size: larger;
     color: blue;
-    scrollbar-face-color: aquamarine;
+
 }
 
 .form{
@@ -139,3 +162,84 @@ marquee{
     width: 70%;
     margin-bottom: 5%;
 }
+
+
+
+
+.project{
+    background-color: aqua;
+    
+}
+
+
+.about{
+    font-size: larger;
+    font-family: serif;
+    text-align: left;
+    width: 500px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 50px;
+    
+    
+}
+
+
+.why{
+    background-color: aquamarine;
+    
+}
+
+.specialize{
+    background-color: mediumpurple;
+    
+    
+}
+
+.my{
+    background-color: turquoise;
+    
+}
+
+.services{
+    text-align: left;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 500px;
+    font-size: larger;
+
+}
+
+.hire{
+    background-color: darkseagreen;
+}
+.what{
+    background-color: bisque;
+}
+
+.niches{
+    background-color: cornflowerblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
