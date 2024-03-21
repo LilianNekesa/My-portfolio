@@ -1,8 +1,9 @@
 body{
-    background-color: white;
+    background-color:black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    color: white;
     
 }
 
@@ -17,8 +18,9 @@ text-align: center;
         background-color: chocolate;
         list-style-type: none;
         border-radius: 15px;
-        text-align: left;
+        text-align: center;
         padding: 10px 30px;
+        font-size: larger;
     }
     .menu-bar ul li{
         display: inline-flex;
@@ -33,6 +35,34 @@ text-align: center;
 
     .active, .menu-bar li :hover {
         color: black;
+        border-radius: 3px;
+    }
+    
+    .dropdown{
+        display: block;
+    }
+    
+    .menu-bar ul li:hover .dropdown{
+        display: block;
+        position: relative;
+        background-color: green;
+        margin-top: 15px;
+    
+    }
+    
+    .menu-bar ul li:hover .dropdown ul{
+        display: block;
+        margin: 10px;
+    }
+    
+    .menu-bar ul li:hover .dropdown ul li{
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        text-align: left;
+        display: block;
+    
     }
 
     .top{
@@ -76,7 +106,7 @@ text-align: center;
 h2{
     text-align: center;
     font-size: xx-large;
-    color: black;
+    color: white;
 }
 
 .lilian{
@@ -105,7 +135,7 @@ h2{
 h3{
     text-align: center;
     font-size: xx-large;
-    color: black; 
+    color: white; 
     font-family: times;
     font-weight: bolder;
      
@@ -124,7 +154,7 @@ h3{
 
 p{
     font-size: larger;
-    color: black;
+    color: white;
     font-family: times;
 
 }
